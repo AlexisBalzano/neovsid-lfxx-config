@@ -7,6 +7,10 @@
 > [!CAUTION]
 > Configuration files only compatible with **NeoVSID v1.0.0**
 
+## Installation
+
+Drop `NeoVSID` Folder inside `Documents/NeoRadar/plugin/` folder.
+
 ## Supported platforms
 
 | FIR | Platforms |
