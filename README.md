@@ -1,4 +1,4 @@
-# Configuration repository for vSID in LFXX airspace
+# Configuration repository for NeoVSID in LFXX airspace
 
 ## vSID Plugin
 
