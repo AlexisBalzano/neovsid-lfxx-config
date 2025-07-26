@@ -1,6 +1,6 @@
 # Configuration repository for NeoVSID in LFXX airspace
 
-## vSID Plugin
+## NeoVSID Plugin
 
 - [NeoVSID GitHub](https://github.com/Gameagle/vSID/wiki](https://github.com/AlexisBalzano/NeoRadarVSID))
 
