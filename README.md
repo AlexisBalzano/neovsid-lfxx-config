@@ -1,15 +1,15 @@
 # Configuration repository for vSID in LFXX airspace
 
-## Current status
-[![JSON Validation](https://github.com/vaccfr/vsid-settings/actions/workflows/valid_json.yml/badge.svg)](https://github.com/vaccfr/vsid-settings/actions/workflows/valid_json.yml)
-
 ## vSID Plugin
 
-- [vSID GitHub Wiki](https://github.com/Gameagle/vSID/wiki)
-- [vSID on Vatsim Germany KB](https://knowledgebase.vatsim-germany.org/books/vsid-plugin/page/vsid-controller-manual)
+- [NeoVSID GitHub](https://github.com/Gameagle/vSID/wiki](https://github.com/AlexisBalzano/NeoRadarVSID))
 
 > [!CAUTION]
-> The configuration files are now only compatible with vSID v0.12.0 and above
+> Configuration files only compatible with **NeoVSID v1.0.0**
+
+## Installation
+
+Drop `NeoVSID` Folder inside `Documents/NeoRadar/plugin/` folder.
 
 ## Supported platforms
 
@@ -39,14 +39,16 @@ For LFPN, LFPT and LFPV, one of the 4 rules MUST manually be enabled. Not enabli
 - `wipg=ON`: LFPG in West opposing configuration
 - `eipg=ON`: LFPG in East opposing configuration
 
-To toggle a rule: `.vsid rule <airport icao> <rule name>`
+To toggle a Rule: `.vsid rule <airport icao> <rule name>`
 
 ## Areas
 
  The 2 areas `north` and `south` at LFPG are used to manage the taxi configuration:
-- `ON`: Roulage mini (default)
-- `OFF`: Croisement au sol
+- `ON`: Minimum Taxi
+- `OFF`: Ground Deconflicting
 
 The 2 areas **MUST** be both ON or OFF at the same time. To toggle an area:
 - `.vsid area LFPG north`
 - `.vsid area LFPG south`
+
+To toggle an Area: `.vsid area <airport icao> <area name>`
