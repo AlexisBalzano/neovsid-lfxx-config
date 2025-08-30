@@ -1,107 +1,108 @@
 {
-  "LFLX": {
-    "elevation": 529,
-    "runways": "03,21",
-    "transAlt": 5000,
-    "maxInitialClimb": 4000,
-    "appSI": "BB,BIA",
-    "sids": {
-      "ETAMO": {
-        "J": {
-          "1": {
-            "rwy": "03",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
+    "LFLX": {
+        "appSI": "BB,BIA",
+        "elevation": 529,
+        "maxInitialClimb": 4000,
+        "runways": "03,21",
+        "sids": {
+            "ETAMO": {
+                "J": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "03"
+                    }
+                },
+                "K": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "21"
+                    }
+                }
+            },
+            "GUSON": {
+                "J": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "03"
+                    }
+                },
+                "K": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "21"
+                    }
+                }
+            },
+            "OLINO": {
+                "J": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "03"
+                    }
+                },
+                "K": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "21"
+                    }
+                }
+            },
+            "SOPIL": {
+                "J": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "03"
+                    }
+                },
+                "K": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "21"
+                    }
+                }
             }
-          }
         },
-        "K": {
-          "1": {
-            "rwy": "21",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "GUSON": {
-        "J": {
-          "1": {
-            "rwy": "03",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "K": {
-          "1": {
-            "rwy": "21",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "OLINO": {
-        "J": {
-          "1": {
-            "rwy": "03",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "K": {
-          "1": {
-            "rwy": "21",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "SOPIL": {
-        "J": {
-          "1": {
-            "rwy": "03",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "K": {
-          "1": {
-            "rwy": "21",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+        "transAlt": 5000
+    },
+    "version": "v1.3.3"
 }

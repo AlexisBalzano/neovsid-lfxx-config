@@ -1,111 +1,112 @@
 {
-  "LFRK": {
-    "elevation": 242,
-    "runways": "13,31,12L,31R",
-    "transAlt": 5000,
-    "maxInitialClimb": 0,
-    "appSI": "RR,RNA",
-    "sids": {
-      "LGL": {
-        "N": {
-          "1": {
-            "rwy": "31",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
+    "LFRK": {
+        "appSI": "RR,RNA",
+        "elevation": 242,
+        "maxInitialClimb": 0,
+        "runways": "13,31,12L,31R",
+        "sids": {
+            "LGL": {
+                "N": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "31"
+                    }
+                },
+                "S": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "13"
+                    }
+                },
+                "X": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "NON-RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "13"
+                    }
+                },
+                "Y": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "NON-RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "31"
+                    }
+                }
+            },
+            "LISEU": {
+                "X": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "13"
+                    }
+                },
+                "Y": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "31"
+                    }
+                }
+            },
+            "LUSIT": {
+                "X": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "13"
+                    }
+                },
+                "Y": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "31"
+                    }
+                }
+            },
+            "NEVIL": {
+                "X": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "13"
+                    }
+                },
+                "Y": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "31"
+                    }
+                }
             }
-          }
         },
-        "S": {
-          "1": {
-            "rwy": "13",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "X": {
-          "1": {
-            "rwy": "13",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "31",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "NON-RNAV": true
-            }
-          }
-        }
-      },
-      "LISEU": {
-        "X": {
-          "1": {
-            "rwy": "13",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "31",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      },
-      "NEVIL": {
-        "X": {
-          "1": {
-            "rwy": "13",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "31",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      },
-      "LUSIT": {
-        "X": {
-          "1": {
-            "rwy": "13",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        },
-        "Y": {
-          "1": {
-            "rwy": "31",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      }
-    }
-  }
+        "transAlt": 5000
+    },
+    "version": "v1.3.3"
 }

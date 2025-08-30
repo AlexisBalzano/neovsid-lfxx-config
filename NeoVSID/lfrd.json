@@ -1,59 +1,60 @@
 {
-  "LFRD": {
-    "elevation": 219,
-    "runways": "17,35",
-    "transAlt": 5000,
-    "maxInitialClimb": 0,
-    "appSI": "RR,RNA",
-    "sids": {
-      "EKRAS": {
-        "N": {
-          "1": {
-            "rwy": "35",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
+    "LFRD": {
+        "appSI": "RR,RNA",
+        "elevation": 219,
+        "maxInitialClimb": 0,
+        "runways": "17,35",
+        "sids": {
+            "EKRAS": {
+                "N": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "35"
+                    }
+                },
+                "S": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "17"
+                    }
+                }
+            },
+            "MINQI": {
+                "N": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "35"
+                    }
+                },
+                "S": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "17"
+                    }
+                }
             }
-          }
         },
-        "S": {
-          "1": {
-            "rwy": "17",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "MINQI": {
-        "N": {
-          "1": {
-            "rwy": "35",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "17",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+        "transAlt": 5000
+    },
+    "version": "v1.3.3"
 }

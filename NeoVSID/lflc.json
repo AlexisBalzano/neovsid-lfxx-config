@@ -1,305 +1,306 @@
 {
-  "LFLC": {
-    "elevation": 1092,
-    "runways": "08,26,01,19",
-    "transAlt": 5000,
-    "maxInitialClimb": 0,
-    "appSI": "MM,LCA",
-    "sids": {
-      "BELEP": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
+    "LFLC": {
+        "appSI": "MM,LCA",
+        "elevation": 1092,
+        "maxInitialClimb": 0,
+        "runways": "08,26,01,19",
+        "sids": {
+            "BELEP": {
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "08"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "26"
+                    }
+                }
+            },
+            "CACHI": {
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "08"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "26"
+                    }
+                }
+            },
+            "GERVA": {
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "08"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "26"
+                    }
+                }
+            },
+            "LERGA": {
+                "D": {
+                    "1": {
+                        "WTC": "LM",
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "26"
+                    }
+                },
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 2,
+                        "rwy": "08"
+                    }
+                },
+                "S": {
+                    "1": {
+                        "WTC": "LM",
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "08"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 2,
+                        "rwy": "26"
+                    }
+                }
+            },
+            "MEZIN": {
+                "D": {
+                    "1": {
+                        "WTC": "LM",
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "26"
+                    }
+                },
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 2,
+                        "rwy": "08"
+                    }
+                },
+                "S": {
+                    "1": {
+                        "WTC": "LM",
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "08"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 2,
+                        "rwy": "26"
+                    }
+                }
+            },
+            "MINPA": {
+                "D": {
+                    "1": {
+                        "WTC": "LM",
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "26"
+                    }
+                },
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 2,
+                        "rwy": "08"
+                    }
+                },
+                "S": {
+                    "1": {
+                        "WTC": "LM",
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "08"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 2,
+                        "rwy": "26"
+                    }
+                }
+            },
+            "MOU": {
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "08"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "26"
+                    }
+                }
+            },
+            "RISUN": {
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "08"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "26"
+                    }
+                }
+            },
+            "RIVEK": {
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "08"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "26"
+                    }
+                }
+            },
+            "ROA": {
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "08"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "26"
+                    }
+                }
+            },
+            "SOMTI": {
+                "D": {
+                    "1": {
+                        "WTC": "LM",
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "26"
+                    }
+                },
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 2,
+                        "rwy": "08"
+                    }
+                },
+                "S": {
+                    "1": {
+                        "WTC": "LM",
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "08"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 2,
+                        "rwy": "26"
+                    }
+                }
             }
-          }
         },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "CACHI": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "GERVA": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "RISUN": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "LERGA": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 2
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 2
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "WTC": "LM"
-          }
-        },
-        "D": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "WTC": "LM"
-          }
-        }
-      },
-      "MEZIN": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 2
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 2
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "WTC": "LM"
-          }
-        },
-        "D": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "WTC": "LM"
-          }
-        }
-      },
-      "MINPA": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 2
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 2
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "WTC": "LM"
-          }
-        },
-        "D": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "WTC": "LM"
-          }
-        }
-      },
-      "MOU": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      },
-      "ROA": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      },
-      "RIVEK": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      },
-      "SOMTI": {
-        "E": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 2
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 2
-          }
-        },
-        "S": {
-          "1": {
-            "rwy": "08",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "WTC": "LM"
-          }
-        },
-        "D": {
-          "1": {
-            "rwy": "26",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "WTC": "LM"
-          }
-        }
-      }
-    }
-  }
+        "transAlt": 5000
+    },
+    "version": "v1.3.3"
 }

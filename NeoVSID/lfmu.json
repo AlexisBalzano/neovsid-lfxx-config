@@ -1,51 +1,52 @@
 {
-  "LFMU": {
-    "elevation": 56,
-    "runways": "09,27",
-    "transAlt": 5000,
-    "maxInitialClimb": 0,
-    "appSI": "MM,MTA",
-    "sids": {
-      "FJR": {
-        "L": {
-          "1": {
-            "rwy": "09",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
+    "LFMU": {
+        "appSI": "MM,MTA",
+        "elevation": 56,
+        "maxInitialClimb": 0,
+        "runways": "09,27",
+        "sids": {
+            "FJR": {
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "09"
+                    }
+                },
+                "L": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "09"
+                    }
+                },
+                "R": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "27"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "27"
+                    }
+                }
             }
-          }
         },
-        "R": {
-          "1": {
-            "rwy": "27",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "E": {
-          "1": {
-            "rwy": "09",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "27",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      }
-    }
-  }
+        "transAlt": 5000
+    },
+    "version": "v1.3.3"
 }

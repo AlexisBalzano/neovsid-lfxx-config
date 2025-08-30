@@ -1,142 +1,143 @@
 {
-  "LFKC": {
-    "elevation": 210,
-    "runways": "18,36",
-    "transAlt": 5000,
-    "maxInitialClimb": 0,
-    "appSI": "MM,KBA",
-    "sids": {
-      "AJO": {
-        "R": {
-          "1": {
-            "rwy": "36",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
+    "LFKC": {
+        "appSI": "MM,KBA",
+        "elevation": 210,
+        "maxInitialClimb": 0,
+        "runways": "18,36",
+        "sids": {
+            "AJO": {
+                "C": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 2,
+                        "rwy": "36"
+                    }
+                },
+                "R": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "36"
+                    }
+                }
+            },
+            "CAPCO": {
+                "C": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 2,
+                        "rwy": "36"
+                    }
+                },
+                "R": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "36"
+                    }
+                }
+            },
+            "MEGER": {
+                "C": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 2,
+                        "rwy": "36"
+                    }
+                },
+                "R": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "36"
+                    }
+                }
+            },
+            "MERLU": {
+                "C": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 2,
+                        "rwy": "36"
+                    }
+                },
+                "R": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "36"
+                    }
+                }
+            },
+            "NORKA": {
+                "C": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 2,
+                        "rwy": "36"
+                    }
+                },
+                "R": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "36"
+                    }
+                }
+            },
+            "SODRI": {
+                "R": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "36"
+                    }
+                }
+            },
+            "TORTU": {
+                "R": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "36"
+                    }
+                }
             }
-          }
         },
-        "C": {
-          "1": {
-            "rwy": "36",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 2
-          }
-        }
-      },
-      "CAPCO": {
-        "R": {
-          "1": {
-            "rwy": "36",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "C": {
-          "1": {
-            "rwy": "36",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 2
-          }
-        }
-      },
-      "MEGER": {
-        "R": {
-          "1": {
-            "rwy": "36",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "C": {
-          "1": {
-            "rwy": "36",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 2
-          }
-        }
-      },
-      "MERLU": {
-        "R": {
-          "1": {
-            "rwy": "36",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "C": {
-          "1": {
-            "rwy": "36",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 2
-          }
-        }
-      },
-      "NORKA": {
-        "R": {
-          "1": {
-            "rwy": "36",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "C": {
-          "1": {
-            "rwy": "36",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 2
-          }
-        }
-      },
-      "SODRI": {
-        "R": {
-          "1": {
-            "rwy": "36",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "TORTU": {
-        "R": {
-          "1": {
-            "rwy": "36",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+        "transAlt": 5000
+    },
+    "version": "v1.3.3"
 }

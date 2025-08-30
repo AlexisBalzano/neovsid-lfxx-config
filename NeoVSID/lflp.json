@@ -1,141 +1,142 @@
 {
-  "LFLP": {
-    "elevation": 1521,
-    "runways": "04,22,04R,22L",
-    "transAlt": 6500,
-    "maxInitialClimb": 6500,
-    "appSI": "MM,LBA",
-    "sids": {
-      "ESAPI": {
-        "A": {
-          "1": {
-            "rwy": "04,22",
-            "initial": 6500,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
+    "LFLP": {
+        "appSI": "MM,LBA",
+        "elevation": 1521,
+        "maxInitialClimb": 6500,
+        "runways": "04,22,04R,22L",
+        "sids": {
+            "BULOL": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 6500,
+                        "prio": 1,
+                        "rwy": "04,22"
+                    }
+                }
+            },
+            "BUSIL": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 6500,
+                        "prio": 1,
+                        "rwy": "04,22"
+                    }
+                }
+            },
+            "ESAPI": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 6500,
+                        "prio": 1,
+                        "rwy": "04,22"
+                    }
+                }
+            },
+            "LSE": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 6500,
+                        "prio": 1,
+                        "rwy": "04,22"
+                    }
+                }
+            },
+            "LTP": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 6500,
+                        "prio": 1,
+                        "rwy": "04,22"
+                    }
+                }
+            },
+            "ODIKI": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 6500,
+                        "prio": 1,
+                        "rwy": "04,22"
+                    }
+                }
+            },
+            "PAS": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 6500,
+                        "prio": 1,
+                        "rwy": "04,22"
+                    }
+                }
+            },
+            "PIRUV": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 6500,
+                        "prio": 1,
+                        "rwy": "04,22"
+                    }
+                }
+            },
+            "ROMAM": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 6500,
+                        "prio": 1,
+                        "rwy": "04,22"
+                    }
+                }
+            },
+            "VENAT": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 6500,
+                        "prio": 1,
+                        "rwy": "04,22"
+                    }
+                }
             }
-          }
-        }
-      },
-      "ODIKI": {
-        "A": {
-          "1": {
-            "rwy": "04,22",
-            "initial": 6500,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "PAS": {
-        "A": {
-          "1": {
-            "rwy": "04,22",
-            "initial": 6500,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "VENAT": {
-        "A": {
-          "1": {
-            "rwy": "04,22",
-            "initial": 6500,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "LSE": {
-        "A": {
-          "1": {
-            "rwy": "04,22",
-            "initial": 6500,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "LTP": {
-        "A": {
-          "1": {
-            "rwy": "04,22",
-            "initial": 6500,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "ROMAM": {
-        "A": {
-          "1": {
-            "rwy": "04,22",
-            "initial": 6500,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "BULOL": {
-        "A": {
-          "1": {
-            "rwy": "04,22",
-            "initial": 6500,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "BUSIL": {
-        "A": {
-          "1": {
-            "rwy": "04,22",
-            "initial": 6500,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "PIRUV": {
-        "A": {
-          "1": {
-            "rwy": "04,22",
-            "initial": 6500,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+        },
+        "transAlt": 6500
+    },
+    "version": "v1.3.3"
 }

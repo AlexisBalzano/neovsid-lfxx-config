@@ -1,75 +1,76 @@
 {
-  "LFLN": {
-    "elevation": 796,
-    "runways": "15L,33R,15R,33L,15,33",
-    "transAlt": 5000,
-    "maxInitialClimb": 0,
-    "appSI": "MM,LCA",
-    "sids": {
-      "BUSIL": {
-        "S": {
-          "1": {
-            "rwy": "15L",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
+    "LFLN": {
+        "appSI": "MM,LCA",
+        "elevation": 796,
+        "maxInitialClimb": 0,
+        "runways": "15L,33R,15R,33L,15,33",
+        "sids": {
+            "BUSIL": {
+                "N": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "33R"
+                    }
+                },
+                "S": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "15L"
+                    }
+                }
+            },
+            "LESPI": {
+                "N": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "33R"
+                    }
+                },
+                "S": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "15L"
+                    }
+                }
+            },
+            "MOU": {
+                "N": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "33R"
+                    }
+                },
+                "S": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "15L"
+                    }
+                }
+            },
+            "SINPO": {
+                "S": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "15L"
+                    }
+                }
+            }
         },
-        "N": {
-          "1": {
-            "rwy": "33R",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      },
-      "LESPI": {
-        "S": {
-          "1": {
-            "rwy": "15L",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "33R",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      },
-      "MOU": {
-        "S": {
-          "1": {
-            "rwy": "15L",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        },
-        "N": {
-          "1": {
-            "rwy": "33R",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      },
-      "SINPO": {
-        "S": {
-          "1": {
-            "rwy": "15L",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      }
-    }
-  }
+        "transAlt": 5000
+    },
+    "version": "v1.3.3"
 }

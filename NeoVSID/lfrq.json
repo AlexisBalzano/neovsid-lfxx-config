@@ -1,107 +1,108 @@
 {
-  "LFRQ": {
-    "elevation": 90,
-    "runways": "09,27",
-    "transAlt": 5000,
-    "maxInitialClimb": 0,
-    "appSI": "RR,RBA",
-    "sids": {
-      "DEGEX": {
-        "E": {
-          "1": {
-            "rwy": "09",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
+    "LFRQ": {
+        "appSI": "RR,RBA",
+        "elevation": 90,
+        "maxInitialClimb": 0,
+        "runways": "09,27",
+        "sids": {
+            "DEGEX": {
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "09"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "27"
+                    }
+                }
+            },
+            "ERCOZ": {
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "09"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "27"
+                    }
+                }
+            },
+            "IDRIK": {
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "09"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "27"
+                    }
+                }
+            },
+            "KORER": {
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "09"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "27"
+                    }
+                }
             }
-          }
         },
-        "W": {
-          "1": {
-            "rwy": "27",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "ERCOZ": {
-        "E": {
-          "1": {
-            "rwy": "09",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "27",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "IDRIK": {
-        "E": {
-          "1": {
-            "rwy": "09",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "27",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "KORER": {
-        "E": {
-          "1": {
-            "rwy": "09",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "27",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+        "transAlt": 5000
+    },
+    "version": "v1.3.3"
 }

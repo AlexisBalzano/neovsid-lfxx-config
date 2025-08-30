@@ -1,235 +1,236 @@
 {
-  "LFBD": {
-    "elevation": 166,
-    "runways": "05,11,23,29",
-    "transAlt": 5000,
-    "maxInitialClimb": 7000,
-    "appSI": "BB,BDA",
-    "sids": {
-      "CNA": {
-        "E": {
-          "1": {
-            "rwy": "11",
-            "initial": 7000,
-            "climbvia": true,
-            "prio": 1
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "23",
-            "initial": 7000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Q": {
-          "1": {
-            "rwy": "05",
-            "initial": 7000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "29",
-            "initial": 7000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "OBLOC": {
-        "E": {
-          "1": {
-            "rwy": "11",
-            "initial": 7000,
-            "climbvia": true,
-            "prio": 1
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "23",
-            "initial": 7000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Q": {
-          "1": {
-            "rwy": "05",
-            "initial": 7000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "29",
-            "initial": 7000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Z": {
-          "1": {
-            "rwy": "29",
-            "initial": 4000,
-            "climbvia": true,
-            "dest": {
-              "LFBE": true
+    "LFBD": {
+        "appSI": "BB,BDA",
+        "elevation": 166,
+        "maxInitialClimb": 7000,
+        "runways": "05,11,23,29",
+        "sids": {
+            "CNA": {
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 7000,
+                        "prio": 1,
+                        "rwy": "11"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 7000,
+                        "prio": 1,
+                        "rwy": "23"
+                    }
+                },
+                "Q": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 7000,
+                        "prio": 1,
+                        "rwy": "05"
+                    }
+                },
+                "R": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 7000,
+                        "prio": 1,
+                        "rwy": "29"
+                    }
+                }
             },
-            "prio": 1
-          }
-        }
-      },
-      "VAVIX": {
-        "E": {
-          "1": {
-            "rwy": "11",
-            "initial": 7000,
-            "climbvia": true,
-            "prio": 1
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "23",
-            "initial": 7000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Q": {
-          "1": {
-            "rwy": "05",
-            "initial": 7000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "29",
-            "initial": 7000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Z": {
-          "1": {
-            "rwy": "05",
-            "initial": 4000,
-            "climbvia": true,
-            "dest": {
-              "LFBZ": true
+            "OBLOC": {
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 7000,
+                        "prio": 1,
+                        "rwy": "11"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 7000,
+                        "prio": 1,
+                        "rwy": "23"
+                    }
+                },
+                "Q": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 7000,
+                        "prio": 1,
+                        "rwy": "05"
+                    }
+                },
+                "R": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 7000,
+                        "prio": 1,
+                        "rwy": "29"
+                    }
+                },
+                "Z": {
+                    "1": {
+                        "climbvia": true,
+                        "dest": {
+                            "LFBE": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "29"
+                    }
+                }
             },
-            "prio": 1
-          }
-        },
-        "A": {
-          "1": {
-            "rwy": "23",
-            "initial": 7000,
-            "climbvia": true,
-            "dest": {
-              "LFBZ": true
+            "ROYAN": {
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 7000,
+                        "prio": 1,
+                        "rwy": "11"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 7000,
+                        "prio": 1,
+                        "rwy": "23"
+                    }
+                },
+                "Q": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 7000,
+                        "prio": 1,
+                        "rwy": "05"
+                    }
+                },
+                "R": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 7000,
+                        "prio": 1,
+                        "rwy": "29"
+                    }
+                },
+                "Z": {
+                    "1": {
+                        "climbvia": true,
+                        "dest": {
+                            "LFBH": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "05"
+                    }
+                }
             },
-            "prio": 1
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "29",
-            "initial": 7000,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      },
-      "ROYAN": {
-        "E": {
-          "1": {
-            "rwy": "11",
-            "initial": 7000,
-            "climbvia": true,
-            "prio": 1
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "23",
-            "initial": 7000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
+            "VAVIX": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "dest": {
+                            "LFBZ": true
+                        },
+                        "initial": 7000,
+                        "prio": 1,
+                        "rwy": "23"
+                    }
+                },
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 7000,
+                        "prio": 1,
+                        "rwy": "11"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 7000,
+                        "prio": 1,
+                        "rwy": "23"
+                    }
+                },
+                "Q": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 7000,
+                        "prio": 1,
+                        "rwy": "05"
+                    }
+                },
+                "R": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 7000,
+                        "prio": 1,
+                        "rwy": "29"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 7000,
+                        "prio": 1,
+                        "rwy": "29"
+                    }
+                },
+                "Z": {
+                    "1": {
+                        "climbvia": true,
+                        "dest": {
+                            "LFBZ": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "05"
+                    }
+                }
             }
-          }
         },
-        "Q": {
-          "1": {
-            "rwy": "05",
-            "initial": 7000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "R": {
-          "1": {
-            "rwy": "29",
-            "initial": 7000,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "Z": {
-          "1": {
-            "rwy": "05",
-            "initial": 4000,
-            "climbvia": true,
-            "dest": {
-              "LFBH": true
-            },
-            "prio": 1
-          }
-        }
-      }
-    }
-  }
+        "transAlt": 5000
+    },
+    "version": "v1.3.3"
 }

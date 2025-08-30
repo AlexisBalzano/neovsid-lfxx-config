@@ -1,35 +1,36 @@
 {
-  "LFMH": {
-    "elevation": 1325,
-    "runways": "17,35",
-    "transAlt": 6000,
-    "maxInitialClimb": 0,
-    "appSI": "MM,LCA",
-    "sids": {
-      "LERGA": {
-        "N": {
-          "1": {
-            "rwy": "35",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
+    "LFMH": {
+        "appSI": "MM,LCA",
+        "elevation": 1325,
+        "maxInitialClimb": 0,
+        "runways": "17,35",
+        "sids": {
+            "LERGA": {
+                "N": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "35"
+                    }
+                },
+                "S": {
+                    "1": {
+                        "climbvia": true,
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "17"
+                    }
+                }
             }
-          }
         },
-        "S": {
-          "1": {
-            "rwy": "17",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1,
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+        "transAlt": 6000
+    },
+    "version": "v1.3.3"
 }

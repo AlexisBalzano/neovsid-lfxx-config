@@ -1,1715 +1,1716 @@
 {
-  "LFPN": {
-    "elevation": 538,
-    "runways": "07L,25R,07R,25L",
-    "transAlt": 5000,
-    "maxInitialClimb": 5000,
-    "appSI": "FF,PGA,POA",
-    "customRules": {
-      "wlpg": false,
-      "wipg": false,
-      "elpg": false,
-      "eipg": false
+    "LFPN": {
+        "appSI": "FF,PGA,POA",
+        "customRules": {
+            "eipg": false,
+            "elpg": false,
+            "wipg": false,
+            "wlpg": false
+        },
+        "elevation": 538,
+        "maxInitialClimb": 5000,
+        "runways": "07L,25R,07R,25L",
+        "sids": {
+            "AGOPA": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "B": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                }
+            },
+            "ATREX": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "B": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                }
+            },
+            "BAXIR": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "B": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                }
+            },
+            "BUBLI": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "B": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                }
+            },
+            "DIKOL": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "B": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                }
+            },
+            "DORDI": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "B": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                }
+            },
+            "ELCOB": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "B": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                }
+            },
+            "ERIXU": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "B": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                }
+            },
+            "LATRA": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "B": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                }
+            },
+            "LGL": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "B": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                }
+            },
+            "MONOT": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "B": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                }
+            },
+            "NURMO": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "B": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                }
+            },
+            "OB": {
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                }
+            },
+            "OKASI": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "B": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                }
+            },
+            "OLZOM": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "B": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                }
+            },
+            "OPALE": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "B": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                }
+            },
+            "PACIQ": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 2000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 2000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "B": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 2000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 2000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                }
+            },
+            "PB": {
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 5000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                }
+            },
+            "PILUL": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "B": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 4000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                }
+            },
+            "PT": {
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                }
+            },
+            "RANUX": {
+                "A": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "B": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "07L"
+                    }
+                },
+                "P": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "wlpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "wipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                },
+                "V": {
+                    "1": {
+                        "climbvia": true,
+                        "customRule": "elpg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    },
+                    "2": {
+                        "climbvia": true,
+                        "customRule": "eipg",
+                        "equip": {
+                            "RNAV": true
+                        },
+                        "initial": 3000,
+                        "prio": 1,
+                        "rwy": "25R"
+                    }
+                }
+            }
+        },
+        "transAlt": 5000
     },
-    "sids": {
-      "ATREX": {
-        "A": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "NURMO": {
-        "A": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "OPALE": {
-        "A": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "BAXIR": {
-        "A": {
-          "1": {
-            "rwy": "07L",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "07L",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "BUBLI": {
-        "A": {
-          "1": {
-            "rwy": "07L",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "07L",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "DIKOL": {
-        "A": {
-          "1": {
-            "rwy": "07L",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "07L",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "RANUX": {
-        "A": {
-          "1": {
-            "rwy": "07L",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "07L",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "AGOPA": {
-        "A": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "ERIXU": {
-        "A": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "LATRA": {
-        "A": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "OKASI": {
-        "A": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "PILUL": {
-        "A": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "DORDI": {
-        "A": {
-          "1": {
-            "rwy": "07L",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "07L",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "MONOT": {
-        "A": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "OLZOM": {
-        "A": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "ELCOB": {
-        "A": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "LGL": {
-        "A": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 4000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "PACIQ": {
-        "A": {
-          "1": {
-            "rwy": "07L",
-            "initial": 2000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 2000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "B": {
-          "1": {
-            "rwy": "07L",
-            "initial": 2000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "07L",
-            "initial": 2000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "P": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "elpg",
-            "equip": {
-              "RNAV": true
-            }
-          },
-          "2": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "PT": {
-        "P": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "PB": {
-        "P": {
-          "1": {
-            "rwy": "25R",
-            "initial": 5000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "eipg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      },
-      "OB": {
-        "P": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        },
-        "V": {
-          "1": {
-            "rwy": "25R",
-            "initial": 3000,
-            "climbvia": true,
-            "prio": 1,
-            "customRule": "wlpg",
-            "equip": {
-              "RNAV": true
-            }
-          }
-        }
-      }
-    }
-  }
+    "version": "v1.3.3"
 }

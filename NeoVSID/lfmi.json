@@ -1,81 +1,82 @@
 {
-  "LFMI": {
-    "elevation": 82,
-    "runways": "15,33",
-    "transAlt": 5000,
-    "maxInitialClimb": 14000,
-    "appSI": "MM,MLA,FFM,MIA",
-    "sids": {
-      "AVN": {
-        "D": {
-          "1": {
-            "rwy": "15,33",
-            "initial": 14000,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      },
-      "LUC": {
-        "D": {
-          "1": {
-            "rwy": "15,33",
-            "initial": 12000,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      },
-      "NASIK": {
-        "D": {
-          "1": {
-            "rwy": "15,33",
-            "initial": 12000,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      },
-      "SOSUR": {
-        "D": {
-          "1": {
-            "rwy": "15,33",
-            "initial": 14000,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      },
-      "TINOT": {
-        "D": {
-          "1": {
-            "rwy": "15,33",
-            "initial": 14000,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      },
-      "MAMES": {
-        "D": {
-          "1": {
-            "rwy": "15,33",
-            "initial": 14000,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      },
-      "PPG": {
-        "D": {
-          "1": {
-            "rwy": "15,33",
-            "initial": 14000,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      }
-    }
-  }
+    "LFMI": {
+        "appSI": "MM,MLA,FFM,MIA",
+        "elevation": 82,
+        "maxInitialClimb": 14000,
+        "runways": "15,33",
+        "sids": {
+            "AVN": {
+                "D": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 14000,
+                        "prio": 1,
+                        "rwy": "15,33"
+                    }
+                }
+            },
+            "LUC": {
+                "D": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 12000,
+                        "prio": 1,
+                        "rwy": "15,33"
+                    }
+                }
+            },
+            "MAMES": {
+                "D": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 14000,
+                        "prio": 1,
+                        "rwy": "15,33"
+                    }
+                }
+            },
+            "NASIK": {
+                "D": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 12000,
+                        "prio": 1,
+                        "rwy": "15,33"
+                    }
+                }
+            },
+            "PPG": {
+                "D": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 14000,
+                        "prio": 1,
+                        "rwy": "15,33"
+                    }
+                }
+            },
+            "SOSUR": {
+                "D": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 14000,
+                        "prio": 1,
+                        "rwy": "15,33"
+                    }
+                }
+            },
+            "TINOT": {
+                "D": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 14000,
+                        "prio": 1,
+                        "rwy": "15,33"
+                    }
+                }
+            }
+        },
+        "transAlt": 5000
+    },
+    "version": "v1.3.3"
 }

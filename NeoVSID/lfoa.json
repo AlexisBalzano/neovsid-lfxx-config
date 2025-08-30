@@ -1,93 +1,94 @@
 {
-  "LFOA": {
-    "elevation": 578,
-    "runways": "06,24",
-    "transAlt": 5000,
-    "maxInitialClimb": 0,
-    "appSI": "FF,OAA",
-    "sids": {
-      "AV": {
-        "E": {
-          "1": {
-            "rwy": "06",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
+    "LFOA": {
+        "appSI": "FF,OAA",
+        "elevation": 578,
+        "maxInitialClimb": 0,
+        "runways": "06,24",
+        "sids": {
+            "AV": {
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "06"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "24"
+                    }
+                }
+            },
+            "CTX": {
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "24"
+                    }
+                }
+            },
+            "LEMIN": {
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "06"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "24"
+                    }
+                }
+            },
+            "MENOX": {
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "06"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "24"
+                    }
+                }
+            },
+            "MOU": {
+                "E": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "06"
+                    }
+                },
+                "W": {
+                    "1": {
+                        "climbvia": true,
+                        "initial": 0,
+                        "prio": 1,
+                        "rwy": "24"
+                    }
+                }
+            }
         },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      },
-      "LEMIN": {
-        "E": {
-          "1": {
-            "rwy": "06",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      },
-      "MENOX": {
-        "E": {
-          "1": {
-            "rwy": "06",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      },
-      "MOU": {
-        "E": {
-          "1": {
-            "rwy": "06",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        },
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      },
-      "CTX": {
-        "W": {
-          "1": {
-            "rwy": "24",
-            "initial": 0,
-            "climbvia": true,
-            "prio": 1
-          }
-        }
-      }
-    }
-  }
+        "transAlt": 5000
+    },
+    "version": "v1.3.3"
 }
