@@ -367,7 +367,7 @@
                 },
                 "C": {
                     "1": {
-                        "rwy": "22L,22R",
+                        "rwy": "04L,04R",
                         "initial": 0,
                         "climbvia": true,
                         "prio": 2,
