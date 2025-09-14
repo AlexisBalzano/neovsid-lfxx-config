@@ -5,7 +5,7 @@
 - [NeoVSID GitHub](https://github.com/Gameagle/vSID/wiki](https://github.com/AlexisBalzano/NeoRadarVSID))
 
 > [!CAUTION]
-> Configuration files only compatible with **NeoVSID v1.3.7**
+> Configuration files only compatible with **NeoVSID v1.3.8**
 
 ## Installation
 
