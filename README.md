@@ -1,4 +1,4 @@
-# Configuration repository for NeoVSID in LFXX airspace
+# Configuration repository for NeoVSID in LFXX airspace v2.0.1
 
 ## NeoVSID Plugin
 
