@@ -9,7 +9,7 @@
 
 ## Installation
 
-Drop `NeoVSID` Folder inside `Documents/NeoRadar/plugin/` folder.
+add this link to `Documents/NeoRadar/Plugins/NeoVSID/config.json` : `"config_github_url": "AlexisBalzano/neovsid-lfxx-config/main"`
 
 ## Supported platforms
 
