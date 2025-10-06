@@ -47,6 +47,17 @@
                             "RNAV": true
                         }
                     }
+                },
+                "J": {
+                    "1": {
+                        "rwy": "29",
+                        "initial": 7000,
+                        "climbvia": true,
+                        "prio": 2,
+                        "equip": {
+                            "RNAV": true
+                        }
+                    }
                 }
             },
             "OBLOC": {
@@ -91,14 +102,22 @@
                         }
                     }
                 },
-                "Z": {
+                "J": {
                     "1": {
                         "rwy": "29",
+                        "initial": 7000,
+                        "climbvia": true,
+                        "prio": 2,
+                        "equip": {
+                            "RNAV": true
+                        }
+                    }
+                },
+                "Z": {
+                    "1": {
+                        "rwy": "05",
                         "initial": 4000,
                         "climbvia": true,
-                        "dest": {
-                            "LFBE": true
-                        },
                         "prio": 1
                     }
                 }
@@ -145,14 +164,22 @@
                         }
                     }
                 },
+                "J": {
+                    "1": {
+                        "rwy": "29",
+                        "initial": 7000,
+                        "climbvia": true,
+                        "prio": 2,
+                        "equip": {
+                            "RNAV": true
+                        }
+                    }
+                },
                 "Z": {
                     "1": {
                         "rwy": "05",
                         "initial": 4000,
                         "climbvia": true,
-                        "dest": {
-                            "LFBZ": true
-                        },
                         "prio": 1
                     }
                 },
@@ -161,9 +188,6 @@
                         "rwy": "23",
                         "initial": 7000,
                         "climbvia": true,
-                        "dest": {
-                            "LFBZ": true
-                        },
                         "prio": 1
                     }
                 },
@@ -218,14 +242,22 @@
                         }
                     }
                 },
+                "J": {
+                    "1": {
+                        "rwy": "29",
+                        "initial": 7000,
+                        "climbvia": true,
+                        "prio": 2,
+                        "equip": {
+                            "RNAV": true
+                        }
+                    }
+                },
                 "Z": {
                     "1": {
                         "rwy": "05",
                         "initial": 4000,
                         "climbvia": true,
-                        "dest": {
-                            "LFBH": true
-                        },
                         "prio": 1
                     }
                 }
