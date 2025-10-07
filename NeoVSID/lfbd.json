@@ -118,7 +118,8 @@
                         "rwy": "05",
                         "initial": 4000,
                         "climbvia": true,
-                        "prio": 1
+                        "prio": 1,
+                        "WTC": "L"
                     }
                 }
             },
@@ -180,7 +181,8 @@
                         "rwy": "05",
                         "initial": 4000,
                         "climbvia": true,
-                        "prio": 1
+                        "prio": 1,
+                        "WTC": "L"
                     }
                 },
                 "A": {
@@ -258,7 +260,8 @@
                         "rwy": "05",
                         "initial": 4000,
                         "climbvia": true,
-                        "prio": 1
+                        "prio": 1,
+                        "WTC": "L"
                     }
                 }
             }
