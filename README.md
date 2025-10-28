@@ -1,11 +1,11 @@
-# Configuration repository for NeoVSID in LFXX airspace v2.0.1
+# Configuration repository for NeoVSID in LFXX airspace v2.0.2
 
 ## NeoVSID Plugin
 
 - [NeoVSID GitHub](https://github.com/Gameagle/vSID/wiki](https://github.com/AlexisBalzano/NeoRadarVSID))
 
 > [!CAUTION]
-> Configuration files only compatible with **NeoVSID v1.3.9**
+> Configuration files only compatible with **NeoVSID v1.4.3**
 
 ## Installation
 
