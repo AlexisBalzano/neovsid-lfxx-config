@@ -233,7 +233,7 @@
                 "A": {
                     "1": {
                         "rwy": "04L,04R",
-                        "initial": 10000,
+                        "initial": 13000,
                         "climbvia": true,
                         "prio": 1,
                         "equip": {
@@ -244,7 +244,7 @@
                 "X": {
                     "1": {
                         "rwy": "22L,22R",
-                        "initial": 10000,
+                        "initial": 13000,
                         "climbvia": true,
                         "prio": 1,
                         "equip": {
