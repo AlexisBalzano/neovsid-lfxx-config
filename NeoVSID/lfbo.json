@@ -1,780 +1,780 @@
 {
-    "LFBO": {
-        "elevation": 499,
-        "runways": "14R,14L,32R,32L",
-        "transAlt": 5000,
-        "maxInitialClimb": 7000,
-        "appSI": "BB,BOA",
-        "sids": {
-            "AMOLO": {
-                "A": {
-                    "1": {
-                        "rwy": "14L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "J",
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "terminal"
-                    },
-                    "2": {
-                        "rwy": "14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "J",
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "airbus"
-                    },
-                    "3": {
-                        "rwy": "14L,14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "J",
-                        "equip": {
-                            "RNAV": true
-                        }
-                    }
-                },
-                "H": {
-                    "1": {
-                        "rwy": "14L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "PT",
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "terminal"
-                    },
-                    "2": {
-                        "rwy": "14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "PT",
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "airbus"
-                    },
-                    "3": {
-                        "rwy": "14L,14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "PT",
-                        "equip": {
-                            "RNAV": true
-                        }
-                    }
-                },
-                "B": {
-                    "1": {
-                        "rwy": "32R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "terminal"
-                    },
-                    "2": {
-                        "rwy": "32L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "airbus"
-                    },
-                    "3": {
-                        "rwy": "32L,32R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        }
-                    }
-                }
+  "LFBO": {
+    "elevation": 499,
+    "runways": "14R,14L,32R,32L",
+    "transAlt": 5000,
+    "maxInitialClimb": 7000,
+    "appSI": "BB,BOA",
+    "sids": {
+      "AMOLO": {
+        "A": {
+          "1": {
+            "rwy": "14L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "J",
+            "equip": {
+              "RNAV": true
             },
-            "MEN": {
-                "A": {
-                    "1": {
-                        "rwy": "14L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "J",
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "terminal"
-                    },
-                    "2": {
-                        "rwy": "14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "J",
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "airbus"
-                    },
-                    "3": {
-                        "rwy": "14L,14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "J",
-                        "equip": {
-                            "RNAV": true
-                        }
-                    }
-                },
-                "H": {
-                    "1": {
-                        "rwy": "14L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "PT",
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "terminal"
-                    },
-                    "2": {
-                        "rwy": "14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "PT",
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "airbus"
-                    },
-                    "3": {
-                        "rwy": "14L,14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "PT",
-                        "equip": {
-                            "RNAV": true
-                        }
-                    }
-                },
-                "B": {
-                    "1": {
-                        "rwy": "32R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "terminal"
-                    },
-                    "2": {
-                        "rwy": "32L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "airbus"
-                    },
-                    "3": {
-                        "rwy": "32L,32R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        }
-                    }
-                }
+            "area": "terminal"
+          },
+          "2": {
+            "rwy": "14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "J",
+            "equip": {
+              "RNAV": true
             },
-            "FINOT": {
-                "A": {
-                    "1": {
-                        "rwy": "14L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "J",
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "terminal"
-                    },
-                    "2": {
-                        "rwy": "14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "J",
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "airbus"
-                    },
-                    "3": {
-                        "rwy": "14L,14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "J",
-                        "equip": {
-                            "RNAV": true
-                        }
-                    }
-                },
-                "H": {
-                    "1": {
-                        "rwy": "14L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "PT",
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "terminal"
-                    },
-                    "2": {
-                        "rwy": "14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "PT",
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "airbus"
-                    },
-                    "3": {
-                        "rwy": "14L,14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "PT",
-                        "equip": {
-                            "RNAV": true
-                        }
-                    }
-                },
-                "B": {
-                    "1": {
-                        "rwy": "32L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "airbus"
-                    },
-                    "2": {
-                        "rwy": "32R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "terminal"
-                    },
-                    "3": {
-                        "rwy": "32L,32R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        }
-                    }
-                }
-            },
-            "MORIL": {
-                "A": {
-                    "1": {
-                        "rwy": "14L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "terminal"
-                    },
-                    "2": {
-                        "rwy": "14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "airbus"
-                    },
-                    "3": {
-                        "rwy": "14L,14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        }
-                    }
-                },
-                "B": {
-                    "1": {
-                        "rwy": "32L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "airbus"
-                    },
-                    "2": {
-                        "rwy": "32R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "terminal"
-                    },
-                    "3": {
-                        "rwy": "32L,32R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        }
-                    }
-                }
-            },
-            "RIBOU": {
-                "A": {
-                    "1": {
-                        "rwy": "14L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "terminal"
-                    },
-                    "2": {
-                        "rwy": "14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "airbus"
-                    },
-                    "3": {
-                        "rwy": "14L,14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        }
-                    }
-                },
-                "B": {
-                    "1": {
-                        "rwy": "32L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "airbus"
-                    },
-                    "2": {
-                        "rwy": "32R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "terminal"
-                    },
-                    "3": {
-                        "rwy": "32L,32R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        }
-                    }
-                }
-            },
-            "GAUDE": {
-                "A": {
-                    "1": {
-                        "rwy": "14L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "terminal"
-                    },
-                    "2": {
-                        "rwy": "14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "airbus"
-                    },
-                    "3": {
-                        "rwy": "14L,14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        }
-                    }
-                },
-                "B": {
-                    "1": {
-                        "rwy": "32L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "airbus"
-                    },
-                    "2": {
-                        "rwy": "32R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "terminal"
-                    },
-                    "3": {
-                        "rwy": "32L,32R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        }
-                    }
-                }
-            },
-            "LMB": {
-                "A": {
-                    "1": {
-                        "rwy": "14L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "J",
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "terminal"
-                    },
-                    "2": {
-                        "rwy": "14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "J",
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "airbus"
-                    },
-                    "3": {
-                        "rwy": "14L,14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "J",
-                        "equip": {
-                            "RNAV": true
-                        }
-                    }
-                },
-                "B": {
-                    "1": {
-                        "rwy": "32L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "airbus"
-                    },
-                    "2": {
-                        "rwy": "32R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "terminal"
-                    },
-                    "3": {
-                        "rwy": "32L,32R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        }
-                    }
-                }
-            },
-            "LACOU": {
-                "A": {
-                    "1": {
-                        "rwy": "14L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "J",
-                        "area": "terminal"
-                    },
-                    "2": {
-                        "rwy": "14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "J",
-                        "area": "airbus"
-                    },
-                    "3": {
-                        "rwy": "14L,14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "J"
-                    }
-                },
-                "B": {
-                    "1": {
-                        "rwy": "32L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "airbus"
-                    },
-                    "2": {
-                        "rwy": "32R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "terminal"
-                    },
-                    "3": {
-                        "rwy": "32R,32R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        }
-                    }
-                },
-                "H": {
-                    "1": {
-                        "rwy": "14L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "PT",
-                        "area": "terminal"
-                    },
-                    "2": {
-                        "rwy": "14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "PT",
-                        "area": "airbus"
-                    },
-                    "3": {
-                        "rwy": "14L,14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "PT"
-                    }
-                }
-            },
-            "FISTO": {
-                "A": {
-                    "1": {
-                        "rwy": "14L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "J",
-                        "area": "terminal"
-                    },
-                    "2": {
-                        "rwy": "14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "J",
-                        "area": "airbus"
-                    },
-                    "3": {
-                        "rwy": "14L,14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "J"
-                    }
-                },
-                "B": {
-                    "1": {
-                        "rwy": "32L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "airbus"
-                    },
-                    "2": {
-                        "rwy": "32R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        },
-                        "area": "terminal"
-                    },
-                    "3": {
-                        "rwy": "32L,32R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "equip": {
-                            "RNAV": true
-                        }
-                    }
-                },
-                "H": {
-                    "1": {
-                        "rwy": "14L",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "PT",
-                        "area": "terminal"
-                    },
-                    "2": {
-                        "rwy": "14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "PT",
-                        "area": "airbus"
-                    },
-                    "3": {
-                        "rwy": "14L,14R",
-                        "initial": 7000,
-                        "climbvia": true,
-                        "prio": 1,
-                        "engineType": "PT"
-                    }
-                }
+            "area": "airbus"
+          },
+          "3": {
+            "rwy": "14L,14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "J",
+            "equip": {
+              "RNAV": true
             }
+          }
         },
-        "areas": {
-            "airbus": {
-                "active": true,
-                "p1": {
-                    "lat": "43.638202",
-                    "lon": "1.350494"
-                },
-                "p2": {
-                    "lat": "43.614516",
-                    "lon": "1.374063"
-                },
-                "p3": {
-                    "lat": "43.608426",
-                    "lon": "1.356897"
-                },
-                "p4": {
-                    "lat": "43.633155",
-                    "lon": "1.335697"
-                }
+        "H": {
+          "1": {
+            "rwy": "14L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "PT",
+            "equip": {
+              "RNAV": true
             },
-            "terminal": {
-                "active": true,
-                "p1": {
-                    "lat": "43.656633",
-                    "lon": "1.342735"
-                },
-                "p2": {
-                    "lat": "43.661476",
-                    "lon": "1.361103"
-                },
-                "p3": {
-                    "lat": "43.620419",
-                    "lon": "1.394920"
-                },
-                "p4": {
-                    "lat": "43.615945",
-                    "lon": "1.380329"
-                }
+            "area": "terminal"
+          },
+          "2": {
+            "rwy": "14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "PT",
+            "equip": {
+              "RNAV": true
+            },
+            "area": "airbus"
+          },
+          "3": {
+            "rwy": "14L,14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "PT",
+            "equip": {
+              "RNAV": true
             }
+          }
+        },
+        "B": {
+          "1": {
+            "rwy": "32R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "terminal"
+          },
+          "2": {
+            "rwy": "32L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "airbus"
+          },
+          "3": {
+            "rwy": "32L,32R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            }
+          }
         }
+      },
+      "MEN": {
+        "A": {
+          "1": {
+            "rwy": "14L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "J",
+            "equip": {
+              "RNAV": true
+            },
+            "area": "terminal"
+          },
+          "2": {
+            "rwy": "14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "J",
+            "equip": {
+              "RNAV": true
+            },
+            "area": "airbus"
+          },
+          "3": {
+            "rwy": "14L,14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "J",
+            "equip": {
+              "RNAV": true
+            }
+          }
+        },
+        "H": {
+          "1": {
+            "rwy": "14L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "PT",
+            "equip": {
+              "RNAV": true
+            },
+            "area": "terminal"
+          },
+          "2": {
+            "rwy": "14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "PT",
+            "equip": {
+              "RNAV": true
+            },
+            "area": "airbus"
+          },
+          "3": {
+            "rwy": "14L,14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "PT",
+            "equip": {
+              "RNAV": true
+            }
+          }
+        },
+        "B": {
+          "1": {
+            "rwy": "32R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "terminal"
+          },
+          "2": {
+            "rwy": "32L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "airbus"
+          },
+          "3": {
+            "rwy": "32L,32R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            }
+          }
+        }
+      },
+      "FINOT": {
+        "A": {
+          "1": {
+            "rwy": "14L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "J",
+            "equip": {
+              "RNAV": true
+            },
+            "area": "terminal"
+          },
+          "2": {
+            "rwy": "14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "J",
+            "equip": {
+              "RNAV": true
+            },
+            "area": "airbus"
+          },
+          "3": {
+            "rwy": "14L,14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "J",
+            "equip": {
+              "RNAV": true
+            }
+          }
+        },
+        "H": {
+          "1": {
+            "rwy": "14L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "PT",
+            "equip": {
+              "RNAV": true
+            },
+            "area": "terminal"
+          },
+          "2": {
+            "rwy": "14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "PT",
+            "equip": {
+              "RNAV": true
+            },
+            "area": "airbus"
+          },
+          "3": {
+            "rwy": "14L,14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "PT",
+            "equip": {
+              "RNAV": true
+            }
+          }
+        },
+        "B": {
+          "1": {
+            "rwy": "32L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "airbus"
+          },
+          "2": {
+            "rwy": "32R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "terminal"
+          },
+          "3": {
+            "rwy": "32L,32R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            }
+          }
+        }
+      },
+      "MORIL": {
+        "A": {
+          "1": {
+            "rwy": "14L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "terminal"
+          },
+          "2": {
+            "rwy": "14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "airbus"
+          },
+          "3": {
+            "rwy": "14L,14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            }
+          }
+        },
+        "B": {
+          "1": {
+            "rwy": "32L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "airbus"
+          },
+          "2": {
+            "rwy": "32R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "terminal"
+          },
+          "3": {
+            "rwy": "32L,32R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            }
+          }
+        }
+      },
+      "RIBOU": {
+        "A": {
+          "1": {
+            "rwy": "14L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "terminal"
+          },
+          "2": {
+            "rwy": "14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "airbus"
+          },
+          "3": {
+            "rwy": "14L,14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            }
+          }
+        },
+        "B": {
+          "1": {
+            "rwy": "32L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "airbus"
+          },
+          "2": {
+            "rwy": "32R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "terminal"
+          },
+          "3": {
+            "rwy": "32L,32R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            }
+          }
+        }
+      },
+      "GAUDE": {
+        "A": {
+          "1": {
+            "rwy": "14L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "terminal"
+          },
+          "2": {
+            "rwy": "14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "airbus"
+          },
+          "3": {
+            "rwy": "14L,14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            }
+          }
+        },
+        "B": {
+          "1": {
+            "rwy": "32L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "airbus"
+          },
+          "2": {
+            "rwy": "32R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "terminal"
+          },
+          "3": {
+            "rwy": "32L,32R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            }
+          }
+        }
+      },
+      "LMB": {
+        "A": {
+          "1": {
+            "rwy": "14L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "J",
+            "equip": {
+              "RNAV": true
+            },
+            "area": "terminal"
+          },
+          "2": {
+            "rwy": "14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "J",
+            "equip": {
+              "RNAV": true
+            },
+            "area": "airbus"
+          },
+          "3": {
+            "rwy": "14L,14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "J",
+            "equip": {
+              "RNAV": true
+            }
+          }
+        },
+        "B": {
+          "1": {
+            "rwy": "32L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "airbus"
+          },
+          "2": {
+            "rwy": "32R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "terminal"
+          },
+          "3": {
+            "rwy": "32L,32R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            }
+          }
+        }
+      },
+      "LACOU": {
+        "A": {
+          "1": {
+            "rwy": "14L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "J",
+            "area": "terminal"
+          },
+          "2": {
+            "rwy": "14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "J",
+            "area": "airbus"
+          },
+          "3": {
+            "rwy": "14L,14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "J"
+          }
+        },
+        "B": {
+          "1": {
+            "rwy": "32L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "airbus"
+          },
+          "2": {
+            "rwy": "32R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "terminal"
+          },
+          "3": {
+            "rwy": "32R,32R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            }
+          }
+        },
+        "H": {
+          "1": {
+            "rwy": "14L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "PT",
+            "area": "terminal"
+          },
+          "2": {
+            "rwy": "14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "PT",
+            "area": "airbus"
+          },
+          "3": {
+            "rwy": "14L,14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "PT"
+          }
+        }
+      },
+      "FISTO": {
+        "A": {
+          "1": {
+            "rwy": "14L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "J",
+            "area": "terminal"
+          },
+          "2": {
+            "rwy": "14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "J",
+            "area": "airbus"
+          },
+          "3": {
+            "rwy": "14L,14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "J"
+          }
+        },
+        "B": {
+          "1": {
+            "rwy": "32L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "airbus"
+          },
+          "2": {
+            "rwy": "32R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            },
+            "area": "terminal"
+          },
+          "3": {
+            "rwy": "32L,32R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "equip": {
+              "RNAV": true
+            }
+          }
+        },
+        "H": {
+          "1": {
+            "rwy": "14L",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "PT",
+            "area": "terminal"
+          },
+          "2": {
+            "rwy": "14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "PT",
+            "area": "airbus"
+          },
+          "3": {
+            "rwy": "14L,14R",
+            "initial": 7000,
+            "climbvia": true,
+            "prio": 1,
+            "engineType": "PT"
+          }
+        }
+      }
     },
-    "version": "2.0.2"
+    "areas": {
+      "airbus": {
+        "active": true,
+        "p1": {
+          "lat": "43.638202",
+          "lon": "1.350494"
+        },
+        "p2": {
+          "lat": "43.614516",
+          "lon": "1.374063"
+        },
+        "p3": {
+          "lat": "43.608426",
+          "lon": "1.356897"
+        },
+        "p4": {
+          "lat": "43.633155",
+          "lon": "1.335697"
+        }
+      },
+      "terminal": {
+        "active": true,
+        "p1": {
+          "lat": "43.656633",
+          "lon": "1.342735"
+        },
+        "p2": {
+          "lat": "43.661476",
+          "lon": "1.361103"
+        },
+        "p3": {
+          "lat": "43.620419",
+          "lon": "1.394920"
+        },
+        "p4": {
+          "lat": "43.615945",
+          "lon": "1.380329"
+        }
+      }
+    }
+  },
+  "version": "v2.0.3"
 }
