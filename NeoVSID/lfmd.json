@@ -7,17 +7,9 @@
         "appSI": "MM,MNA",
         "sids": {
             "BADOD": {
-                "K": {
-                    "1": {
-                        "rwy": "04,17,22,35",
-                        "initial": 2000,
-                        "climbvia": true,
-                        "prio": 2
-                    }
-                },
                 "N": {
                     "1": {
-                        "rwy": "17",
+                        "rwy": "04,17,22,35",
                         "initial": 2000,
                         "climbvia": true,
                         "prio": 1,
@@ -38,7 +30,7 @@
                 },
                 "N": {
                     "1": {
-                        "rwy": "17",
+                        "rwy": "04,17,22,35",
                         "initial": 2000,
                         "climbvia": true,
                         "prio": 1,
@@ -49,17 +41,9 @@
                 }
             },
             "BODRU": {
-                "K": {
-                    "1": {
-                        "rwy": "04,17,22,35",
-                        "initial": 2000,
-                        "climbvia": true,
-                        "prio": 2
-                    }
-                },
                 "N": {
                     "1": {
-                        "rwy": "17",
+                        "rwy": "04,17,22,35",
                         "initial": 2000,
                         "climbvia": true,
                         "prio": 1,
@@ -70,17 +54,9 @@
                 }
             },
             "IRMAR": {
-                "K": {
-                    "1": {
-                        "rwy": "04,17,22,35",
-                        "initial": 2000,
-                        "climbvia": true,
-                        "prio": 2
-                    }
-                },
                 "N": {
                     "1": {
-                        "rwy": "17",
+                        "rwy": "04,17,22,35",
                         "initial": 2000,
                         "climbvia": true,
                         "prio": 1,
@@ -101,7 +77,7 @@
                 },
                 "N": {
                     "1": {
-                        "rwy": "17",
+                        "rwy": "04,17,22,35",
                         "initial": 2000,
                         "climbvia": true,
                         "prio": 1,
@@ -122,7 +98,7 @@
                 },
                 "N": {
                     "1": {
-                        "rwy": "17",
+                        "rwy": "04,17,22,35",
                         "initial": 2000,
                         "climbvia": true,
                         "prio": 1,
@@ -143,7 +119,7 @@
                 },
                 "N": {
                     "1": {
-                        "rwy": "17",
+                        "rwy": "04,17,22,35",
                         "initial": 2000,
                         "climbvia": true,
                         "prio": 1,
@@ -164,7 +140,7 @@
                 },
                 "N": {
                     "1": {
-                        "rwy": "17",
+                        "rwy": "04,17,22,35",
                         "initial": 2000,
                         "climbvia": true,
                         "prio": 1,
@@ -185,7 +161,7 @@
                 },
                 "N": {
                     "1": {
-                        "rwy": "17",
+                        "rwy": "04,17,22,35",
                         "initial": 2000,
                         "climbvia": true,
                         "prio": 1,
@@ -206,7 +182,7 @@
                 },
                 "N": {
                     "1": {
-                        "rwy": "17",
+                        "rwy": "04,17,22,35",
                         "initial": 2000,
                         "climbvia": true,
                         "prio": 1,
@@ -227,7 +203,7 @@
                 },
                 "N": {
                     "1": {
-                        "rwy": "17",
+                        "rwy": "04,17,22,35",
                         "initial": 2000,
                         "climbvia": true,
                         "prio": 1,
@@ -248,7 +224,7 @@
                 },
                 "N": {
                     "1": {
-                        "rwy": "17",
+                        "rwy": "04,17,22,35",
                         "initial": 2000,
                         "climbvia": true,
                         "prio": 1,
